@@ -1,0 +1,50 @@
+# Python 가상환경
+venvs/
+.venv/
+env/
+venv/
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+share/
+etc/
+
+# Python 캐시/임시 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Jupyter 체크포인트
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# 데이터 (대용량/중간 산출물은 제외)
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.tsv
+*.parquet
+*.pickle
+*.joblib
+
+# OS / IDE 관련
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 로그 파일
+logs/
+*.log
+
+# 모델 가중치 / 체크포인트
+*.h5
+*.ckpt
+*.pth
+*.pt
+checkpoints/
+models/
